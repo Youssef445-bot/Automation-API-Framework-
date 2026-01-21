@@ -1,5 +1,6 @@
 Feature: validating place API's
 @addplace @Regression
+  ## this is test case for add place
   Scenario Outline: verify if place is being successfully added using AddplaceAPI
     Given add place payload with "<name>" "<language>" "<address>"
     When user calls "addplaceapi" with "post" http request
